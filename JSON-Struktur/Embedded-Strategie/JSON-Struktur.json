@@ -1,0 +1,54 @@
+{
+    "_id": ObjectId(),
+    "name": "",
+    "email": "",
+    "passwordHash": "",
+
+    "doctor": {
+        "_id": ObjectId(),
+        "name": "",
+        "passwordHash": ""
+    },
+
+    "progress": [
+        {
+            "date": ISODate(),
+            "stats": [
+                {
+                    "name": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            ]
+        }
+    ],
+
+    "trainingPlans": [
+        {
+            "_id": ObjectId(),
+            "name": "",
+            "description": "",
+            "trainings": [
+                {
+                    "_id": ObjectId(),
+                    "dateTimes": [
+                        {
+                            "date": ISODate(""),
+                            "time": ""
+                        }
+                    ],
+                    "executionTimeMinute": 0,
+                    "exercises": [
+                        {
+                            "_id": ObjectId(),
+                            "name": "",
+                            "description": "",
+                            "sets": 0,
+                            "repetitions": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
