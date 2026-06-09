@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>90</x><y>100</y><w>210</w><h>190</h></coordinates><panel_attributes>Benutzer 
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>380</y><w>210</w><h>190</h></coordinates><panel_attributes>Trainings
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>380</y><w>210</w><h>190</h></coordinates><panel_attributes>Trainingspläne 
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>100</y><w>210</w><h>190</h></coordinates><panel_attributes>Fortschritte
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>470</y><w>160</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=mc
+m2=m
+&lt; teaches to</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>480</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=m
+m2=mc
+&lt; teaches to</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>280</y><w>100</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=c
+m2=mc
+&lt; teaches to</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>380</y><w>210</w><h>190</h></coordinates><panel_attributes>Übungen
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>180</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=3
+m2=1
+&lt; teaches to</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element></diagram>
