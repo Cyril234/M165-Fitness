@@ -1,0 +1,57 @@
+{
+    "name": "",
+    "email": "",
+    "passwordHash": "",
+
+    "doctor": ObjectId(), // Referenz auf Doctor
+
+    "progress": [
+        {
+            "date": ISODate(),
+            "stats": [
+                {
+                    "name": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            ]
+        }
+    ],
+
+    "trainingPlans": [
+        {
+            "name": "",
+            "description": "",
+            "trainings": [
+                {
+                    "dateTimes": [
+                        {
+                            "dateTime": ISODate("")
+                        }
+                    ],
+                    "executionTimeMinute": 0,
+                    "exercises": [
+                        ObjectId() // Referenz auf Exercise
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+# Exercise
+{
+    "_id": ObjectId(),
+    "name": "",
+    "description": "",
+    "sets": 0,
+    "repetitions": 0
+}
+
+# Doctor
+{
+    "_id": ObjectId(),
+    "name": "",
+    "email": "",
+    "passwordHash": ""
+}

@@ -1,0 +1,69 @@
+
+# a `user` document
+{
+    "_id": ObjectId("507f1f77bcf86cd799439011"),
+    "name": "",
+    "email": "",
+    "passwordHash": "",
+    "doctor": {
+        "since": ISODate(),
+        "user_id": ObjectId()
+    },
+    "progress": [
+        ObjectId(),
+        ObjectId(),
+        ObjectId()
+    ],
+    "trainingPlans": [
+        ObjectId(),
+        ObjectId()
+    ]
+}
+
+# a `progress` document
+{
+    "_id": ObjectId(),
+    "date": ISODate(),
+    "stats": [
+        {
+            "name": "",
+            "value": 0,
+            "unit": ""
+        }
+    ]
+}
+
+# a `trainingPlan` document
+{
+    "_id": ObjectId(),
+    "name": "",
+    "description": "",
+    "trainings": [
+        ObjectId(),
+        ObjectId(),
+        ObjectId()
+    ]
+}
+
+# a `training` document
+{
+    "_id": ObjectId(),
+    "date": ISODate(""),
+    "time": "",
+    "executionTimeMinute": 0,
+    "exercises": [
+        ObjectId(),
+        ObjectId(),
+        ObjectId(),
+        ObjectId()
+    ]
+}
+
+# an `exercise` document
+{
+    "_id": ObjectId(),
+    "name": "",
+    "description": "",
+    "sets": 0,
+    "repetitions": 0
+}

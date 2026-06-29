@@ -1,12 +1,11 @@
 {
-    "_id": ObjectId(),
     "name": "",
     "email": "",
     "passwordHash": "",
 
     "doctor": {
-        "_id": ObjectId(),
         "name": "",
+        "email": "",
         "passwordHash": ""
     },
 
@@ -25,22 +24,18 @@
 
     "trainingPlans": [
         {
-            "_id": ObjectId(),
             "name": "",
             "description": "",
             "trainings": [
                 {
-                    "_id": ObjectId(),
                     "dateTimes": [
                         {
-                            "date": ISODate(""),
-                            "time": ""
+                            "dateTime": ISODate("")
                         }
                     ],
                     "executionTimeMinute": 0,
                     "exercises": [
                         {
-                            "_id": ObjectId(),
                             "name": "",
                             "description": "",
                             "sets": 0,
